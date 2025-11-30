@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+.input-area {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#noteInput {
+    width: 260px;
+    padding: 10px;
+    border: 2px solid #888;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background: #008cff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #006ad1;
+}
+
+#noteList {
+    list-style: none;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#noteList li {
+    background: white;
+    padding: 12px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+}
+
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: darkred;
+}
