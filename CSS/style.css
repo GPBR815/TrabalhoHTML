@@ -40,21 +40,21 @@ ul.menu li {
   padding: 0;
 }
 
-/* links */
 ul.menu li a {
-  text-decoration: none;
-  color: #008cff;
-  padding: 6px 12px;
-  border-radius: 6px;
-  display: inline-block;
-  transition: background-color .2s, color .2s;
+    text-decoration: none;
+    color: white;
+    background: #008cff;
+    padding: 8px 16px;
+    border-radius: 8px;
+    display: inline-block;
+    transition: 0.2s;
 }
 
 ul.menu li a:hover {
-  background: #008cff;
-  color: #fff;
-  text-decoration: none;
+    background: #006fd4;
+    transform: translateY(-2px);
 }
+
 #noteInput {
     width: 260px;
     padding: 10px;
@@ -104,4 +104,5 @@ button:hover {
 .delete-btn:hover {
     background: darkred;
 }
+
 
