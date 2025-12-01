@@ -55,20 +55,21 @@ ul.menu li a:hover {
   text-decoration: none;
 }
 
-.btn-home {
+.home-btn {
   text-decoration: none;
-  color: #008cff;
-  padding: 6px 12px;
+  background: #008cff;
+  color: #fff;
+  padding: 8px 16px;
   border-radius: 6px;
   display: inline-block;
   transition: background-color .2s, color .2s;
+  font-size: 16px;
 }
 
-.btn-home:hover {
-  background: #008cff;
-  color: #fff;
-  text-decoration: none;
+.home-btn:hover {
+  background: #006bcc;
 }
+
 
 
 #noteInput {
@@ -120,6 +121,7 @@ button:hover {
 .delete-btn:hover {
     background: darkred;
 }
+
 
 
 
